@@ -2,6 +2,10 @@
 
 This is a simple implementation of a singly linked list in C. This list allows you to manage collections of any data type, including your own custom data structures. It provides basic operations for manipulating and querying the list.
 
+## Installation
+
+To use this project, include the 'Node.h', 'Node.c', 'LinkedList.h', and 'LinkedList.c' files in your project. Then, you can run the 'Test.c' file to test the library.
+
 ## Features and Examples
 
   * Create an empty List.
@@ -103,4 +107,5 @@ This is a simple implementation of a singly linked list in C. This list allows y
   ```
 
 ## Important Note:
-  You must implement your own print function for your custom data types. The print function is passed to the new_LinkedList function and will be used to display the elements of the list.
+
+You must implement your own print function for your custom data types. The print function is passed to the new_LinkedList function and will be used to display the elements of the list.
