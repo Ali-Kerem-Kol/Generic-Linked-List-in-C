@@ -94,6 +94,12 @@ void removeAt(int index, LinkedList this){
         printf("%s", "Empty List");
         return;
     }
+    
+    if (index < 0 || index >= this->size){
+        printf("%s", "Index out of range");
+        return;
+    }
+    
     Node del;
     if (index == 0){
         del = this->head;
